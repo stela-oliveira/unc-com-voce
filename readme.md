@@ -129,32 +129,42 @@ Depois baixe o `google-services.json` atualizado e substitua na raiz do projeto.
 
 Estas são instaladas automaticamente pelo `npm install`:
 
-# Dependências principais
+### Dependências principais
+```
 npm install expo@~54.0.33 react@19.1.0 react-native@0.81.5
-
-# Navegação
+```
+### Navegação
+```
 npm install expo-router@~6.0.23 react-native-safe-area-context@~5.6.0 react-native-screens@~4.16.0 expo-linking@~8.0.11 expo-constants@~18.0.13 expo-status-bar@~3.0.9
-
-# Firebase
+```
+### Firebase
+```
 npm install @react-native-firebase/app@^23.8.6 @react-native-firebase/auth@^23.8.6 @react-native-firebase/firestore@^23.8.6
-
-# Google Sign-In
+```
+### Google Sign-In
+```
 npm install @react-native-google-signin/google-signin@^16.1.1
-
-# Estilização
+```
+### Estilização
+```
 npm install nativewind@4.1.23 tailwindcss@3.4.17
-
-# Utilitários
+```
+### Utilitários
+```
 npm install date-fns@^4.1.0 @react-native-async-storage/async-storage@^2.2.0 expo-build-properties@~1.0.10 expo-dev-client@~6.0.20
-
-# Ícones
+```
+### Ícones
+```
 npm install lucide-react-native@^0.575.0 react-native-svg@^15.15.3
-
-# Worklets (dependência do NativeWind)
+```
+### Worklets (dependência do NativeWind)
+```
 npm install react-native-worklets-core
-
-# DevDependencies
+```
+### DevDependencies
+```
 npm install --save-dev babel-preset-expo @types/react@~19.1.0 typescript@~5.9.2
+```
 ---
 
 ## Estrutura do Firestore
