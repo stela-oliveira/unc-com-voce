@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "502503188763",
+    "project_id": "unc-com-voce",
+    "storage_bucket": "unc-com-voce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502503188763:android:217c4c99412bb336ce4bbe",
+        "android_client_info": {
+          "package_name": "br.unc.comvoce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502503188763-abtpvqhm0djiu9sm7fbab4fbc4ch61d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.unc.comvoce",
+            "certificate_hash": "21f9b98f60375d30bf22d2f31a3656af5ac3d5d1"
+          }
+        },
+        {
+          "client_id": "502503188763-ksupnt1r2mmvfv1hamg5a8v9rqd9999j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3QV_f3CL-QhqT03g1FTt1Qo25RXkDK7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502503188763-ksupnt1r2mmvfv1hamg5a8v9rqd9999j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "502503188763-26f65i3p33if4mu14n5l9upkuql7caf1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.unc.comvoce"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "UNC Com Você",
+    "slug": "unc-com-voce",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-unc.png",
+    "scheme": "unccomvoce",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo-unc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D2B6E"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "br.unc.comvoce"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo-unc.png",
+        "backgroundColor": "#0D2B6E"
+      },
+      "package": "br.unc.comvoce",
+      "googleServicesFile": "./google-services.json"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d1c3b9e1-a9c9-4e4e-9494-3742b4e2b9be"
+      }
+    }
+  }
+}
